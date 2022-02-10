@@ -1,17 +1,12 @@
-<?php
-include('./database.php');
-?>
-
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>graphLinks</title>
+    <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1>Wellcome to graphlinks</h1>
+    
 </body>
 </html>
