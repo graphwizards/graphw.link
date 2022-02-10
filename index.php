@@ -1,18 +1,13 @@
 <?php
 include('./database.php');
-
 session_start();
-
-if (isset($_SESSION['name'])) {
-    
+if (isset($_SESSION['name'])) {   
 }
 else{
     session_destroy();
     header('location:login.php');
 }
-
 ?>
-
 
 <html lang="en">
 

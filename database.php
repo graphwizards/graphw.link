@@ -1,5 +1,6 @@
  
 <?php
+ header("Access-Control-Allow-Origin: *");
 
 $hostname = 'sql177.main-hosting.eu';
 $username = 'u924875114_graph';
