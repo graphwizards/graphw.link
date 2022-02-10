@@ -10,7 +10,7 @@ $con = new mysqli($hostname, $username, $password, $database);
 if($con->connect_errno){
     die('Error ' . $con->connect_error);
 }
-echo 'Connected successfully!';
+
 ?>
 
  

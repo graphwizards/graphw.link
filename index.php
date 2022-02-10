@@ -1,9 +1,21 @@
 <?php
 include('./database.php');
+
+session_start();
+
+if (isset($_SESSION['name'])) {
+    
+}
+else{
+    session_destroy();
+    header('location:login.php');
+}
+
 ?>
 
 
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +23,9 @@ include('./database.php');
     <title>graphLinks</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-    <h1>Wellcome to graphlinks</h1>
+    <h1>hello  <?php echo $_SESSION['name'] ?> </h1>
 </body>
+
 </html>
