@@ -1,0 +1,1 @@
+The is_dir() function in PHP used to check whether the specified file is a directory or not. The name of the file is sent as a parameter to the is_dir() function and it returns True if the file is a directory else it returns False.

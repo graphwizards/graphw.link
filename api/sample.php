@@ -1,9 +1,12 @@
 <?php
 header('Access-Control-Allow-Origin: *');
+include('./api-key.php');
 
 if (isset($_GET['api-key'])) {
+
     $key = $_GET['api-key'];
-    if ($key == '250753') {
+    $verify =  verify($key);
+    if ($verify == true) {
         header('Content-type: application/json');
         $response = array();
         $response[0] = array(
@@ -14,10 +17,10 @@ if (isset($_GET['api-key'])) {
     
     echo json_encode($response);
     }
+    else{
+        echo "invalid Key";
+    }
 }
 else{
     echo "Invalid Api Key";
 }
-
- 
-?>
