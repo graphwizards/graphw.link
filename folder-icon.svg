@@ -1,23 +1,5 @@
-<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="87.7px"
-	 height="57.28px" viewBox="0 0 87.7 57.28" style="enable-background:new 0 0 87.7 57.28;" xml:space="preserve">
-<style type="text/css">
-	.st0{opacity:0.16;fill:#B3B3B3;}
-	.st1{fill:url(#SVGID_1_);}
-	.st2{fill:url(#SVGID_2_);}
-</style>
-<defs>
-</defs>
-<g>
-	<ellipse class="st0" cx="43.85" cy="52.7" rx="43.85" ry="4.58"/>
-	<g>
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="27.1825" y1="-1.8782" x2="55.3359" y2="57.8412">
-			<stop  offset="1.065558e-07" style="stop-color:#009DED"/>
-			<stop  offset="1" style="stop-color:#2E3192"/>
-		</linearGradient>
-		<path class="st1" d="M74.99,14.18V46.1c0,1.08-0.66,2.02-1.48,2.11l-58.46,6.41c-1.41,0.15-2.57-0.88-2.57-2.31V2.33
-			c0-1.43,1.16-2.47,2.57-2.31l24.76,2.72c0.82,0.09,1.55,0.71,1.87,1.58l1.49,4.02c0.32,0.86,1.03,1.45,1.82,1.51l28.52,2.28
-			C74.33,12.18,74.99,13.11,74.99,14.18z"/>
-	</g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="131.742" height="105.394" viewBox="0 0 131.742 105.394">
+	<path id="Path_2" data-name="Path 2"
+		d="M56.7,8H17.174A13.115,13.115,0,0,0,4.066,21.174L4,100.219a13.171,13.171,0,0,0,13.174,13.174H122.568a13.171,13.171,0,0,0,13.174-13.174V34.348a13.171,13.171,0,0,0-13.174-13.174h-52.7Z"
+		transform="translate(-4 -8)" fill="#93c5fd" />
 </svg>
